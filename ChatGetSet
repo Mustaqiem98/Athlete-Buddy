@@ -1,0 +1,81 @@
+public class ChatGetSet {
+    private String Username,Email,Password,ImageUrl,Sport,Phone,Gender,Birthdate;
+
+    public ChatGetSet() {
+    }
+
+    public ChatGetSet(String username, String email, String password, String imageUrl, String sport, String phone, String gender, String birthdate) {
+        Username = username;
+        Email = email;
+        Password = password;
+        ImageUrl = imageUrl;
+        Sport = sport;
+        Phone = phone;
+        Gender = gender;
+        Birthdate = birthdate;
+    }
+
+    public String getUsername() {
+        return Username;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public String getPassword() {
+        return Password;
+    }
+
+    public String getImageUrl() {
+        return ImageUrl;
+    }
+
+    public String getSport() {
+        return Sport;
+    }
+
+    public String getPhone() {
+        return Phone;
+    }
+
+    public String getGender() {
+        return Gender;
+    }
+
+    public String getBirthdate() {
+        return Birthdate;
+    }
+
+    public void setUsername(String username) {
+        Username = username;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
+    }
+
+    public void setPassword(String password) {
+        Password = password;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        ImageUrl = imageUrl;
+    }
+
+    public void setSport(String sport) {
+        Sport = sport;
+    }
+
+    public void setPhone(String phone) {
+        Phone = phone;
+    }
+
+    public void setGender(String gender) {
+        Gender = gender;
+    }
+
+    public void setBirthdate(String birthdate) {
+        Birthdate = birthdate;
+    }
+}
